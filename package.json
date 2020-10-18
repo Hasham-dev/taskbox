@@ -48,5 +48,12 @@
     "chromatic": "^5.2.0",
     "react-is": "^16.13.1",
     "react-test-renderer": "^16.14.0"
+  },
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.21"
+    },
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "yarn"
   }
 }
